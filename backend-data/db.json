@@ -1,0 +1,711 @@
+{
+  "users": [
+    {
+      "id": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "name": "Alice Admin",
+      "email": "admin@example.com",
+      "role": "ADMIN",
+      "passwordHash": "$2a$10$7Nuqw./8JyfEQY1/Of2ZD.Vs5t3ob8l1lWR0s/oyVyjIRRvyCBJdu",
+      "lastLogin": "2025-08-26T17:18:24.119Z",
+      "lastLogout": "2025-08-26T20:00:41.009Z"
+    },
+    {
+      "id": "f59631a0-93c8-4dcd-9591-b34c33f9256f",
+      "name": "Henry HR",
+      "email": "hr@example.com",
+      "role": "HR",
+      "passwordHash": "$2a$10$ay7KU.zHh/fmnyY5h4fYh.X89AddTkAm71Fm7e4AcUFbC1/a36.iy",
+      "lastLogin": null,
+      "lastLogout": null
+    },
+    {
+      "id": "0040116d-d259-469b-8bba-9c0437caefb9",
+      "name": "Diana Director",
+      "email": "director@example.com",
+      "role": "DIRECTOR",
+      "passwordHash": "$2a$10$wqA3IMtvGsbM8cW6g1CmgesCQMem4kF5YkQubRh1mb51iRomU2PgS",
+      "lastLogin": null,
+      "lastLogout": null
+    },
+    {
+      "id": "82a1d8a2-1b6b-4ae4-9ddf-0a9815535ad5",
+      "name": "Evan Employee",
+      "email": "employee@example.com",
+      "role": "EMPLOYEE",
+      "passwordHash": "$2a$10$zKWwfhn/T8mC.MmwrdXX..5SDwrULvSEjHudfZZcrsIUOyBoI06Ie",
+      "lastLogin": null,
+      "lastLogout": null
+    },
+    {
+      "id": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "name": "nithin",
+      "email": "dasunithinroy@gmail.com",
+      "role": "EMPLOYEE",
+      "passwordHash": "$2a$10$A86JdSVuc8wbKKp.qGJHpu32nDzkuv1mopKp4M4itVBHWQc4DviWK",
+      "lastLogin": "2025-08-26T20:01:04.726Z",
+      "lastLogout": "2025-08-26T17:18:21.930Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "8e78fffa-5d59-4f06-aec1-bf7188c42842",
+      "title": "check the call logs",
+      "description": "can you look into it",
+      "frequency": "TASK_SHEET",
+      "dueDate": "2025-08-26",
+      "assignedTo": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "createdBy": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "status": "OPEN",
+      "createdAt": "2025-08-26T12:38:56.538Z",
+      "completedAt": null,
+      "completedBy": null
+    },
+    {
+      "id": "d92480a3-b39b-4270-b4b6-34c5b4622afb",
+      "title": "printer duty",
+      "description": "clean printer this evening and update",
+      "frequency": "TASK_SHEET",
+      "dueDate": "2025-08-26",
+      "assignedTo": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "createdBy": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "status": "OPEN",
+      "createdAt": "2025-08-26T12:49:37.324Z",
+      "completedAt": null,
+      "completedBy": null
+    },
+    {
+      "id": "c4eeabb7-19e1-420a-8e32-702cf034eb6d",
+      "title": "check the mails",
+      "description": "thankyou",
+      "frequency": "TASK_SHEET",
+      "dueDate": "2025-08-27",
+      "assignedTo": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "createdBy": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "status": "OPEN",
+      "createdAt": "2025-08-26T17:11:08.673Z",
+      "completedAt": null,
+      "completedBy": null
+    },
+    {
+      "id": "56b46359-a03f-43d3-a9d2-f83ef1a27829",
+      "title": "check the calls and messages",
+      "description": "thankyou",
+      "frequency": "TASK_SHEET",
+      "dueDate": "2025-08-26",
+      "assignedTo": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "createdBy": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "status": "OPEN",
+      "createdAt": "2025-08-26T17:13:14.972Z",
+      "completedAt": null,
+      "completedBy": null
+    }
+  ],
+  "comments": [],
+  "messages": [
+    {
+      "id": "2371fd00-ce0f-451e-8cab-9d85bb7ae9ac",
+      "fromUserId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "toUserId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "text": "hi",
+      "createdAt": "2025-08-25T11:29:03.587Z",
+      "read": true
+    },
+    {
+      "id": "0f0dd221-8ab4-491c-97da-aa85e8bce5d7",
+      "fromUserId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "toUserId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "text": "hi",
+      "createdAt": "2025-08-26T12:37:15.128Z",
+      "read": true
+    },
+    {
+      "id": "a45a7b4c-da45-4ded-bb43-0df7447d24ca",
+      "fromUserId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "toUserId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "text": "thank you",
+      "createdAt": "2025-08-26T12:37:25.115Z",
+      "read": true
+    },
+    {
+      "id": "ae93ddf7-30f1-47a3-aa2e-749066498e71",
+      "fromUserId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "toUserId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "text": "Re: thank you hi",
+      "createdAt": "2025-08-26T12:40:39.272Z",
+      "read": true
+    },
+    {
+      "id": "512a7821-b09b-4ed4-8fec-3d12e6cf833c",
+      "fromUserId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "toUserId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "text": "heloooooo",
+      "createdAt": "2025-08-26T12:47:05.322Z",
+      "read": true
+    },
+    {
+      "id": "d37045b2-6510-468c-b207-382f2df841fb",
+      "fromUserId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "toUserId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "text": "thanks",
+      "createdAt": "2025-08-26T12:51:46.474Z",
+      "read": true
+    },
+    {
+      "id": "e7a8b264-33ab-4da0-9d11-c8faaa37146c",
+      "fromUserId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "toUserId": "0040116d-d259-469b-8bba-9c0437caefb9",
+      "text": "hi",
+      "createdAt": "2025-08-26T14:16:17.319Z",
+      "read": false
+    },
+    {
+      "id": "1ee8dacd-00c5-46da-84f3-9cd65fab4cef",
+      "fromUserId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "toUserId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "text": "hi",
+      "createdAt": "2025-08-26T17:10:08.338Z",
+      "read": true
+    },
+    {
+      "id": "27344461-933b-4f0e-8f4b-40b75ca7e163",
+      "fromUserId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "toUserId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "text": "hi",
+      "createdAt": "2025-08-26T20:00:34.953Z",
+      "read": true
+    },
+    {
+      "id": "43a0bf9c-d0ee-4af6-99b0-ecca8cd44a78",
+      "fromUserId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "toUserId": "82a1d8a2-1b6b-4ae4-9ddf-0a9815535ad5",
+      "text": "hi",
+      "createdAt": "2025-08-26T20:01:24.000Z",
+      "read": false
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "0b9bc2a0-69f1-4b61-a32d-6b10567c3eca",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGIN",
+      "time": "2025-08-25T11:27:25.976Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "19c38a9a-1e6a-4309-8c33-d4e4d0113ba6",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGIN",
+      "time": "2025-08-26T12:36:42.768Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "5ee21ece-92ac-4f6c-869a-708f7621ad5a",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGOUT",
+      "time": "2025-08-26T12:39:37.133Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "0626e2aa-f793-419d-978b-845d438c9c00",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGIN",
+      "time": "2025-08-26T12:40:00.189Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "0f001954-009a-4b4f-b697-d066d8d7c5cb",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGOUT",
+      "time": "2025-08-26T12:47:17.796Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "b4992296-3ae9-4dd9-a02b-3ea3961f623b",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGIN",
+      "time": "2025-08-26T12:47:20.813Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "5dfa8bb3-ed62-420a-8429-497e8457bbb4",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGOUT",
+      "time": "2025-08-26T13:05:07.343Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "e6662050-a156-4d8a-89ae-d085ea4ddea0",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGIN",
+      "time": "2025-08-26T13:06:10.381Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "e1319930-7816-4ef5-8252-3b39237e17b6",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGIN",
+      "time": "2025-08-26T13:08:01.529Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1e8d23f4-fa95-4ad2-a684-e4193edba3a0",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGOUT",
+      "time": "2025-08-26T14:15:46.422Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "9b2608a6-356e-4084-a060-59e9c8d7ab35",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGIN",
+      "time": "2025-08-26T14:16:01.944Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "f14fc148-f63d-4f05-adaa-cfcb6c9b8ef8",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGOUT",
+      "time": "2025-08-26T14:16:20.466Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1f79f058-1fa6-46f5-8ddb-436b1e279f9f",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGIN",
+      "time": "2025-08-26T14:16:42.074Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "ae0a92d6-6523-41a1-b9ea-6010bb24a9c9",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGOUT",
+      "time": "2025-08-26T14:28:14.894Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "78b0465b-7e47-4388-8752-314958e2a4d2",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGIN",
+      "time": "2025-08-26T14:28:17.665Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "a6da06c8-57c0-4616-bd92-ee8f574c8b23",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGIN",
+      "time": "2025-08-26T14:50:23.620Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "cf114aeb-1c73-4d74-8a76-8ab5c9073e66",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGOUT",
+      "time": "2025-08-26T14:53:18.841Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "31a89a66-1478-4370-a7c1-190d76d48a4a",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGIN",
+      "time": "2025-08-26T14:53:37.896Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1484b497-5dc3-4b0f-a18d-2ae2219d46dd",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGOUT",
+      "time": "2025-08-26T15:12:23.506Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "840a63ce-07b0-49ce-8e61-b29c279bacbe",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGIN",
+      "time": "2025-08-26T15:12:25.433Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "a1dea1b5-c43f-4f6b-a8af-2350a4c87e15",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGOUT",
+      "time": "2025-08-26T16:05:17.277Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1e6d67bc-2ee4-429a-93f7-94b6f65f32fd",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGIN",
+      "time": "2025-08-26T16:05:41.387Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "accbb20c-2614-404e-b66a-045f090e20af",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGOUT",
+      "time": "2025-08-26T16:07:49.718Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "92a4d3e0-3d72-4d93-bba7-85ed3b9007c2",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGIN",
+      "time": "2025-08-26T16:07:51.414Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "bb30183b-2d8a-4bfb-b484-e89e1938a21e",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGIN",
+      "time": "2025-08-26T17:08:04.153Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "60dfbc6b-3742-4bb8-a561-6866a23f929f",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGOUT",
+      "time": "2025-08-26T17:09:14.269Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "b3699ac5-e2be-485a-a576-eba14db94f47",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGIN",
+      "time": "2025-08-26T17:09:35.716Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "62f90c0a-d5c1-4e73-ac24-fb3c136142d2",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGOUT",
+      "time": "2025-08-26T17:10:14.172Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "5611bc87-e9c4-47ee-9e6a-01b910f5786c",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGIN",
+      "time": "2025-08-26T17:10:16.076Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "3cb0e3c4-3dc1-4fcd-a6af-ec0544ca5382",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGOUT",
+      "time": "2025-08-26T17:11:25.568Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "22d47ae2-cf90-473c-bea0-d6ccb0c8ff52",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGIN",
+      "time": "2025-08-26T17:11:58.352Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "f8e50485-9bfa-4df1-a47b-1bad7c08da26",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGOUT",
+      "time": "2025-08-26T17:12:21.611Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "3efb18f9-181c-47e0-941d-2041f461cac3",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGIN",
+      "time": "2025-08-26T17:12:23.171Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "dfd0c0ec-abc5-4147-950b-b4ae4a3f7131",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGOUT",
+      "time": "2025-08-26T17:13:18.214Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "a9dee254-494e-4e1f-a543-c30400763bce",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGIN",
+      "time": "2025-08-26T17:14:14.562Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "2206ed72-37f0-459c-a2fd-80158a2e29a1",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGOUT",
+      "time": "2025-08-26T17:16:43.485Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "0b04afe4-e465-4a61-b06b-90af97f126de",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGIN",
+      "time": "2025-08-26T17:17:08.483Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "bcdc62d7-2d1a-4fc7-aea6-1f56b3fe5846",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGOUT",
+      "time": "2025-08-26T17:18:21.930Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "9787c7fb-291e-461e-8daf-92fda60fc399",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGIN",
+      "time": "2025-08-26T17:18:24.119Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "d0338401-ae14-4c23-92bc-776f5bbae94d",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "LOGOUT",
+      "time": "2025-08-26T20:00:41.009Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "3cbee2ed-89f6-413c-b464-2ac66cb5e304",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "LOGIN",
+      "time": "2025-08-26T20:01:04.726Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    }
+  ],
+  "rota": [
+    {
+      "id": "60915821-fb8f-4f01-956c-42174b9a6d5a",
+      "date": "2025-08-26",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "roleLabel": "Reception",
+      "createdBy": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "createdAt": "2025-08-26T12:38:02.546Z"
+    },
+    {
+      "id": "70eafd8f-e4bc-4dff-8c73-fb82438b8260",
+      "date": "2025-08-26",
+      "userId": "f59631a0-93c8-4dcd-9591-b34c33f9256f",
+      "roleLabel": "Dentist",
+      "createdBy": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "createdAt": "2025-08-26T12:39:28.531Z"
+    },
+    {
+      "id": "19a89240-64bc-407d-9455-16948603ff66",
+      "date": "2025-08-28",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "roleLabel": "",
+      "createdBy": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "createdAt": "2025-08-26T12:51:30.689Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "df668081-9744-4925-bcae-9184566f44d8",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "MESSAGE",
+      "title": "New message from Alice Admin",
+      "body": "hi",
+      "link": "/messages",
+      "data": {
+        "peerId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6"
+      },
+      "read": true,
+      "createdAt": "2025-08-26T12:37:15.137Z"
+    },
+    {
+      "id": "bb2b30e9-6cd9-4ad9-a6f5-ad67430dc4cf",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "MESSAGE",
+      "title": "New message from Alice Admin",
+      "body": "thank you",
+      "link": "/messages",
+      "data": {
+        "peerId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6"
+      },
+      "read": true,
+      "createdAt": "2025-08-26T12:37:25.124Z"
+    },
+    {
+      "id": "a0489362-7ace-401e-992a-09573893862a",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "ROTA",
+      "title": "You are scheduled",
+      "body": "2025-08-26 — Reception",
+      "link": "/rota",
+      "data": {
+        "date": "2025-08-26"
+      },
+      "read": true,
+      "createdAt": "2025-08-26T12:38:02.556Z"
+    },
+    {
+      "id": "def010a2-825e-4000-9a53-e6cec0dc00c5",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "TASK_ASSIGNED",
+      "title": "New task assigned",
+      "body": "check the call logs",
+      "link": "/tasks",
+      "data": {
+        "taskId": "8e78fffa-5d59-4f06-aec1-bf7188c42842"
+      },
+      "read": true,
+      "createdAt": "2025-08-26T12:38:56.545Z"
+    },
+    {
+      "id": "0db7ad88-dffc-428a-8ca1-a65aba230da8",
+      "userId": "f59631a0-93c8-4dcd-9591-b34c33f9256f",
+      "type": "ROTA",
+      "title": "You are scheduled",
+      "body": "2025-08-26 — Dentist",
+      "link": "/rota",
+      "data": {
+        "date": "2025-08-26"
+      },
+      "read": false,
+      "createdAt": "2025-08-26T12:39:28.545Z"
+    },
+    {
+      "id": "f13ef2b4-6412-49e4-8c5d-5827aa961b35",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "MESSAGE",
+      "title": "New message from nithin",
+      "body": "Re: thank you hi",
+      "link": "/messages",
+      "data": {
+        "peerId": "1e457b4d-287b-4236-9f92-2c8d417a67be"
+      },
+      "read": true,
+      "createdAt": "2025-08-26T12:40:39.285Z"
+    },
+    {
+      "id": "8f2f0d27-5e57-4c4e-95dc-3fa22ab28c92",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "MESSAGE",
+      "title": "New message from nithin",
+      "body": "heloooooo",
+      "link": "/messages",
+      "data": {
+        "peerId": "1e457b4d-287b-4236-9f92-2c8d417a67be"
+      },
+      "read": true,
+      "createdAt": "2025-08-26T12:47:05.331Z"
+    },
+    {
+      "id": "381e69b1-cbfb-4470-aa9d-32fb27c9733e",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "TASK_ASSIGNED",
+      "title": "New task assigned",
+      "body": "printer duty",
+      "link": "/tasks",
+      "data": {
+        "taskId": "d92480a3-b39b-4270-b4b6-34c5b4622afb"
+      },
+      "read": true,
+      "createdAt": "2025-08-26T12:49:37.335Z"
+    },
+    {
+      "id": "a20eb96e-5809-405e-bd4d-6ad1ee3a7168",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "ROTA",
+      "title": "You are scheduled",
+      "body": "2025-08-28",
+      "link": "/rota",
+      "data": {
+        "date": "2025-08-28"
+      },
+      "read": true,
+      "createdAt": "2025-08-26T12:51:30.710Z"
+    },
+    {
+      "id": "acda2d91-b59f-4f27-9a0e-ba9fd0029f61",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "MESSAGE",
+      "title": "New message from Alice Admin",
+      "body": "thanks",
+      "link": "/messages",
+      "data": {
+        "peerId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6"
+      },
+      "read": true,
+      "createdAt": "2025-08-26T12:51:46.487Z"
+    },
+    {
+      "id": "be9a75d0-067f-4963-8505-41c5fb1e1d37",
+      "userId": "0040116d-d259-469b-8bba-9c0437caefb9",
+      "type": "MESSAGE",
+      "title": "New message from Alice Admin",
+      "body": "hi",
+      "link": "/messages",
+      "data": {
+        "peerId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6"
+      },
+      "read": false,
+      "createdAt": "2025-08-26T14:16:17.331Z"
+    },
+    {
+      "id": "66d495a9-ecc3-41c7-a524-82e4c1dae6f7",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "MESSAGE",
+      "title": "New message from nithin",
+      "body": "hi",
+      "link": "/messages",
+      "data": {
+        "peerId": "1e457b4d-287b-4236-9f92-2c8d417a67be"
+      },
+      "read": true,
+      "createdAt": "2025-08-26T17:10:08.344Z"
+    },
+    {
+      "id": "2d259940-6918-456f-b978-a3c56323aca5",
+      "userId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6",
+      "type": "TASK_ASSIGNED",
+      "title": "New task assigned",
+      "body": "check the mails",
+      "link": "/tasks",
+      "data": {
+        "taskId": "c4eeabb7-19e1-420a-8e32-702cf034eb6d"
+      },
+      "read": true,
+      "createdAt": "2025-08-26T17:11:08.682Z"
+    },
+    {
+      "id": "5039524a-2398-48a8-b34a-d622e94e687f",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "TASK_ASSIGNED",
+      "title": "New task assigned",
+      "body": "check the calls and messages",
+      "link": "/tasks",
+      "data": {
+        "taskId": "56b46359-a03f-43d3-a9d2-f83ef1a27829"
+      },
+      "read": true,
+      "createdAt": "2025-08-26T17:13:14.980Z"
+    },
+    {
+      "id": "6005fd2e-ac4d-4f1c-89d1-270e758a1c90",
+      "userId": "1e457b4d-287b-4236-9f92-2c8d417a67be",
+      "type": "MESSAGE",
+      "title": "New message from Alice Admin",
+      "body": "hi",
+      "link": "/messages",
+      "data": {
+        "peerId": "0d1cacb3-d160-49e9-b84d-39c3bb2566c6"
+      },
+      "read": false,
+      "createdAt": "2025-08-26T20:00:34.965Z"
+    },
+    {
+      "id": "64357e47-a571-4c05-8334-a60c35313c39",
+      "userId": "82a1d8a2-1b6b-4ae4-9ddf-0a9815535ad5",
+      "type": "MESSAGE",
+      "title": "New message from nithin",
+      "body": "hi",
+      "link": "/messages",
+      "data": {
+        "peerId": "1e457b4d-287b-4236-9f92-2c8d417a67be"
+      },
+      "read": false,
+      "createdAt": "2025-08-26T20:01:24.011Z"
+    }
+  ]
+}

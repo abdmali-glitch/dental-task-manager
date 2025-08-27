@@ -1,0 +1,30 @@
+# docker-compose.yml
+name: dental-task-manager
+
+services:
+  backend:
+    build: ./backend
+    container_name: dental-backend
+    ports:
+      - "8000:8000"
+    environment:
+      PORT: 8000
+      JWT_SECRET: ${JWT_SECRET:-super-secret-change-me}
+      CORS_ORIGIN: http://localhost:5173,http://localhost:5174
+      DATA_PATH: /data/db.json
+    volumes:
+      - ./backend-data:/data
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: dental-frontend
+    ports:
+      - "5174:80"        # Nginx serves on 80 inside the container
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+
+
+
